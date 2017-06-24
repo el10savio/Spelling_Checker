@@ -21,7 +21,11 @@ Clone the repository
 git clone https://github.com/el10savio/Spelling_Checker.git
 ```
 
-Go to spellcheck.py and add the bid.txt directory to it.
+Go to spellcheck.py and add the big.txt directory to it.
+```
+
+NWORDS = train(words(file('<big.txt directory>').read()))
+```
 
 Run get.py
 ```
