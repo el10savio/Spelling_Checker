@@ -10,7 +10,7 @@ def train(features):
         model[f] += 1
     return model
 
-NWORDS = train(words(file('<big.txt directory>').read()))
+NWORDS = train(words(file('./big.txt').read()))
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
@@ -33,7 +33,7 @@ def correct(word):
 
 
 #NON GUI
-'''
+
 while True:
 	   each=[]
            word=""
@@ -43,8 +43,9 @@ while True:
            		 i=correct(i)
 			 #word= word+" "+i
 	   #print(word)
-	   		 print(str(i))
-'''
+	   		 print("---------------")
+			 print(str(i))
+	   print("---------------")
 
 
 
